@@ -1,0 +1,12 @@
+application:
+  build: .
+  container_name: my_fw
+  volumes:
+    - .:/usr/src/app
+  ports:
+    - 8087:8087
+  expose:
+    - 8087
+  working_dir: /usr/src/app
+  command: python
+  tty: true

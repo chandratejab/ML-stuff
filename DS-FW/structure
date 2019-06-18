@@ -1,0 +1,14 @@
+|- src/
+|   |- data/
+|   |-   |- data_pull.py
+|   |-   |- data_preprocess.py
+|   |-   |- any_other.py
+|   |- process/
+|   |-   |- train_model.py
+|   |- tests/
+|   |-   |- testcases.py
+|   |- models/
+|   |-   |- (Trained models here)
+|   |- settings.py
+|- launch.py
+|- requirements.txt
